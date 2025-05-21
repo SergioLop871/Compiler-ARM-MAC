@@ -1,0 +1,6 @@
+FUN ambito()
+    VAR a = 20
+END
+
+VAR resultado = a
+PRINT(resultado)

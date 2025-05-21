@@ -1,0 +1,23 @@
+FUN prueba(a)
+    FOR i = 0 TO 5 THEN 
+        PRINT(i)
+    END
+
+    FOR j = 0 TO a STEP 2 THEN
+        PRINT(j)
+    END
+
+    WHILE a!=0 THEN
+        PRINT(a)
+        VAR a = a - 2
+    END
+
+    RETURN a
+END
+
+VAR a = 10
+VAR resultado = prueba(a)
+
+IF resultado == 0 THEN
+    PRINT("El valor de a es 0")
+END
